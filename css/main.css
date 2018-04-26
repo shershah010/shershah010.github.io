@@ -1,43 +1,68 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+*{
+	text-align: center;	
+	font-family: 'Quicksand', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+h1{
+	font-size: 16vh;
+	font-weight: 800;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+div{
+	height: 100vh;
+	width: 100%;
+	position: relative;
 }
-a {
-    text-decoration: none;
-    color: #999;
+h3{
+	font-weight: 400;
+	font-size: 10vh;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-a:hover {
-    text-decoration: underline;
+#one{
+	background-image: url('img/projects.png');
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+#two{ 
+	background-image: url('img/design.png');
+	
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+#three{
+	background-image: url('img/about.png');
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-attachment: fixed;
+}
+.space{
+	display: none;
+}
+.top{
+	height: 100vh;
+	position: relative;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.top h1 {
+    opacity: 0;
+	padding-top: 100px;
+    -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
+       -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
+        -ms-transition: opacity 2s ease-in, padding-top 1s ease-out;
+         -o-transition: opacity 2s ease-in, padding-top 1s ease-out;
+            transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
 
-ul.posts li {
-    list-style: none;
+.top h1.load {
+    opacity: 1;
+    padding-top: 0px;
 }
