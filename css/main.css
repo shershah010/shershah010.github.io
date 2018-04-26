@@ -29,14 +29,14 @@ h3{
 	transform: translate(-50%, -50%);
 }
 #one{
-	background-image: url('img/projects.png');
+	background-image: url('../img/projects.png');
 }
 #two{ 
-	background-image: url('img/design.png');
+	background-image: url('../img/design.png');
 	
 }
 #three{
-	background-image: url('img/about.png');
+	background-image: url('../img/about.png');
 }
 .image{
 	background-size: cover;
