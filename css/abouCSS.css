@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+*{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	/* background-color: #fffeef; */
+}
+.cen{
+	text-align: center;
+	min-height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/lighthouse.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.wrapper{
+	
+	margin: auto 10%;
+	position: absolute;
+	top: 40%;
+    opacity: 0;
+	padding-top: 100px;
+    -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
+       -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
+        -ms-transition: opacity 2s ease-in, padding-top 1s ease-out;
+         -o-transition: opacity 2s ease-in, padding-top 1s ease-out;
+            transition: opacity 2s ease-in, padding-top 1s ease-out;
+}
+
+.wrapper.load {
+    opacity: 1;
+    padding-top: 0px;
+}
+h1{
+	font-size: 4em;
+	margin: 10px;
+}
+h3 {
+	font-size: 2em;
+	margin: 10px;
+}
+
+p {
+	font-size: 1em;
+	margin: 10px;
+}
+.nav{
+	text-align: center;
+	display: block;
+	position: fixed;
+	bottom: 3%;
+	width: 100%;
+}
+.nav li{
+	margin: -5px;
+	display: inline-block;
+	padding: 10px;
+	background-color: white;
+	color: black;
+}
+.nav a{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+}
+.nav a:hover{
+	color: gray;
+	text-decoration: underline;
+}
+.main {
+	display: block;
+	position: fixed;
+	right: 2%;
+	top: 5%;
+}
+.main li{
+	padding: 10px;
+	background-color: white;
+}
+.main li a{
+	color: black;
+	text-decoration: none;
+}
+.main li a:hover{
+	color: gray;
+	text-decoration: underline;
+}
+.item{
+	margin: 50px;
+	
+}
+.item:after{
+	content: "";
+  	display: table;
+ 	clear: both;
+}
+ul{
+	list-style-type: none;
+	display: inline-block;
+}
+#a ul{
+	display: inline-block;
+	min-width: 300px;
+	float: left;
+}
+h4{
+	font-size: 2em;
+}
+h5{
+	font-size: 1.5em;
+}
+.item p{
+	font-size: 1.5em;
+}
+.item li{
+	padding: 5px;
+}
+.social li{
+	display: inline-block;
+}
+.social a{
+	color: black;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+.social a:hover{
+	color: gray;
+	text-decoration: underline;
+}
+.comp li{
+	font-size: 1.5em;
+}
