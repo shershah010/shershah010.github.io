@@ -36,7 +36,7 @@
 }
 .right{
 	display: inline-block;
-	width: 50%;
+	width: 50%; 
 	float: right;
 	top: 50%;
 	min-height: 100vh;
