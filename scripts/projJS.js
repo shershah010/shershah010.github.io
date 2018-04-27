@@ -31,5 +31,5 @@ $(document).ready(function(){
     $(".content").append(items[i]);
   }
 	$(".wrap").addClass("load");
-	contSize();
+	//contSize();
 });
