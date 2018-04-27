@@ -22,7 +22,7 @@ body{
 	margin: auto 10%;
 	position: absolute;
 	top: 40%;
-    opacity: 0;
+  opacity: 0;
 	padding-top: 100px;
     -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
        -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;

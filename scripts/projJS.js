@@ -30,6 +30,6 @@ $(document).ready(function(){
   for (var i = 0; i < items.length; i++){
     $(".content").append(items[i]);
   }
-	$(".wrapper").addClass("load");
+	$(".wrap").addClass("load");
 	contSize();
 });
