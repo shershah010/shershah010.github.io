@@ -10,8 +10,8 @@ $(document).ready(function(){
 							add_item("LANGUAGES", "Over the years, I have picked up many programming languages. Here is a list of them:", lang, "b"),
 							add_item("COMPETITIONS", "One hobby of mine is take part in compeitions. I find the challenges engaging and rewarding. Here are the compeitions I have been involved in:", comp, "c"),
 							add_item("CONTACT", "A list of ways you can contact me:", cont, "d")];
-	for (item = 0; item < items.length; i++){
-		$('body').append(items[item]);
+	for (i = 0; i < items.length; i++){
+		$('body').append(items[i]);
 	}
 	$(".wrapper").addClass("load");
 });
