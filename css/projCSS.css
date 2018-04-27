@@ -65,12 +65,12 @@ a:hover{
 	height: 100vh;
 	position: relative;
 }
-.top .wrapper{
+.wrap{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 	overflow: hidden;
-    opacity: 0;
+  opacity: 0;
 	padding-top: 100px;
     -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
        -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
@@ -79,7 +79,7 @@ a:hover{
             transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
 
-.top .wrapper.load {
+.top .wrap.load {
     opacity: 1;
     padding-top: 0px;
 }
