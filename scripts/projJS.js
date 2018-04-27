@@ -1,4 +1,4 @@
-function contSize(){
+/*function contSize(){
 	$(".cont").each(function (){
 		var left = $(this).find(".left");
 		var right = $(this).find(".right");
@@ -9,13 +9,13 @@ function contSize(){
 		$(right).height(Math.max(lefth3_height+leftp_height, right_height));
 		var left_side_height = 0;
 		if($(left).height() == lefth3_height+leftp_height){
-			left_side_height = $(left).height()+2*parseFloat($(left).css("margin-top"));
+			left_side_height = $(left).height();
 		} else{
-			left_side_height = right_height+2*parseFloat($(right).css("margin-top"));
+			left_side_height = right_height;
 		}
 		$(this).height(left_side_height);
 	});
-}
+}*/
 function add_project(title, para, img, id){
   var css = "background-image: url('../"+img+"'); \n background-repeat: no-repeat; \n background-position: center, center; \n background-size: contain;";
   var startTags = " } </style><div class='cont'><div class='left'><div class='wrapper'><h3> ";

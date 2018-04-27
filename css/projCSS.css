@@ -29,15 +29,17 @@
 .left{
 	display: block;
 	width: 50%;
-	height: 100%;
 	float: left;
 	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .right{
 	display: inline-block;
 	width: 50%;
-	height: 100%;
 	float: right;
+	top: 50%;
+	transform: translateY(-50%);
 }
 h1{
 	font-size: 6vw;
@@ -82,10 +84,4 @@ a:hover{
 .wrap.load {
     opacity: 1;
     padding-top: 0px;
-}
-.wrapper{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	overflow: hidden;
 }
