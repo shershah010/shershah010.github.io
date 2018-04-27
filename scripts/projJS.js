@@ -19,8 +19,8 @@ function contSize(){
 function add_project(title, para, img, id){
   var css = "background-image: url('../'+$img); \n background-repeat: no-repeat;\n background-position: center, center; \n background-size: contain;";
   var startTags = "}</style><div class='cont'><div class='left'><div class='wrapper'<h3>";
-  var midTags = "</h3><p>"
-  var endTags  = "</p></div></div><div class='right' id='" + id + "></div></div><hr>"
+  var midTags = "</h3><p>";
+  var endTags  = "</p></div></div><div class='right' id='" + id + "></div></div><hr>";
   return "<style>#" +id + "{"+ css + startTags + title + midTags + para + endTags;
 }
 $(document).ready(function(){
