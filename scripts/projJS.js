@@ -28,7 +28,7 @@ $(document).ready(function(){
               add_project("Interviews with Veterns", "A highschool project were I took interviews with veterns from World War Two, The Korean War, and the Vietnam War. I compiled the interviews into an interactive experiance were users can assume the role of the interviewer. Some features include a save state and multiple dialog options allowing for multiple playthrough. The tools I used were JavaFX and CSS.", "img/english.gif", 'b'),
               add_project("Text Based Adventure", "A silly, yet dark, text based adventure game. Similar to DUNNET on EMACS. I used C++ and Microsoft Visual Studios to create this project.", "img/text1.gif", 'c')];
   for (var i = 0; i < items.length; i++){
-    $(".content").append(items[i]);
+    $(".content").prepend(items[i]);
   }
 	$(".wrapper").addClass("load");
 	contSize();
