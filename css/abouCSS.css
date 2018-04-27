@@ -10,6 +10,7 @@ body{
 .cen{
 	text-align: center;
 	min-height: 100vh;
+	height: auto;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/lighthouse.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -96,7 +97,7 @@ p {
 }
 .item:after{
 	content: "";
-  	display: table;
+  display: table;
  	clear: both;
 }
 ul{
