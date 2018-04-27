@@ -1,5 +1,5 @@
 function add_item(title, para, special, id){
-	return "<div id='" + id + "' class='item'> <h4>" + title + "</h4><p>" + para + "</p>" + special + "</html><hr>";
+	return "<div id='" + id + "' class='item'> <h4>" + title + "</h4><p>" + para + "</p>" + special + "</div><hr>";
 }
 $(document).ready(function(){
 	var edu = "<ul><li><h5>Computer Science</h5></li><li><p>Intro to CS: A</p></li></ul><ul><li><h5>Math</h5></li><li><p>Integral Calculus: A+</p></li><li><p>Multivariable Calculus: A</p></li></ul><ul><li><h5>Philosophy</h5></li><li><p>Philosophy of Science: A-</p></li></ul>";
