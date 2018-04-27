@@ -18,7 +18,7 @@ body{
 	color: white;
 }
 .wrapper{
-	
+
 	margin: auto 10%;
 	position: absolute;
 	top: 40%;
@@ -92,7 +92,7 @@ p {
 }
 .item{
 	margin: 50px;
-	
+
 }
 .item:after{
 	content: "";
