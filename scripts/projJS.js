@@ -17,11 +17,11 @@ function contSize(){
 	});
 }
 function add_project(title, para, img, id){
-  var css = "background-image: url('../'"+img+"); \n background-repeat: no-repeat; \n background-position: center, center; \n background-size: contain;";
-  var startTags = " } </style><div class='cont'><div class='left'><div class='wrapper'><h3>";
-  var midTags = "</h3><p>";
-  var endTags  = "</p></div></div><div class='right' id='" + id + "'></div></div><hr>";
-  return "<style> #" +id + " {"+ css + startTags + title + midTags + para + endTags;
+  var css = "background-image: url('../"+img+"'); \n background-repeat: no-repeat; \n background-position: center, center; \n background-size: contain;";
+  var startTags = " } </style><div class='cont'><div class='left'><div class='wrapper'><h3> ";
+  var midTags = " </h3><p> ";
+  var endTags  = " </p></div></div><div class='right' id='" + id + "'></div></div><hr>";
+  return "<style> #" +id + " { "+ css + startTags + title + midTags + para + endTags;
 }
 $(document).ready(function(){
   var items = [add_project("Scheme Text Editor", "This is an easy to use, text editor for the programing language, Scheme, which is a dialect of LISP. This was built using JavaFX, the RichTextFX API, and e(fx)clipse tooling and runtime. The program has the capability to open, save, and edit multiple Scheme files simultaneously. It is also provides color coding to make programming easier.", "img/editor.gif", 'a'),
