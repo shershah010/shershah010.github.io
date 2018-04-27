@@ -83,3 +83,9 @@ a:hover{
     opacity: 1;
     padding-top: 0px;
 }
+.wrapper{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+}
