@@ -90,15 +90,15 @@ a:hover{
 		height: auto;
 	}
 	h1{
-		font-size: 2em;
+		font-size: 15em;
 	}
 	h3{
-		font-size: 1.5em;
+		font-size: 12em;
 	}
 	h4 {
-		font-size: 1.2em;
+		font-size: 10em;
 	}
 	p{
-		font-size: 1em;
+		font-size: 8em;
 	}
 }
