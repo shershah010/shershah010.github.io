@@ -140,3 +140,11 @@ h5{
 .comp li{
 	font-size: 1.5em;
 }
+@media (pointer: coarse){
+		.main{
+			display: none;
+		}
+		.nav {
+			display: none;
+		}
+}

@@ -47,7 +47,7 @@ h3{
 .space{
 	display: none;
 }
-@media (min-width: 481px){}
+@media (pointer: fine){
 	.image a{
 		letter-spacing: normal;
 		-webkit-transition: letter-spacing 2s ease-in;
@@ -84,7 +84,7 @@ h3{
     opacity: 1;
     padding-top: 0px;
 }
-@media (max-width: 480px) {
+@media (pointer: coarse) {
 	h1 {
 		font-size: 3em;
 	}
