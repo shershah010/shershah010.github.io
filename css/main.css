@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 *{
-	text-align: center;	
+	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	margin: 0px;
 	padding: 0px;
@@ -31,9 +31,9 @@ h3{
 #one{
 	background-image: url('../img/projects.png');
 }
-#two{ 
+#two{
 	background-image: url('../img/design.png');
-	
+
 }
 #three{
 	background-image: url('../img/about.png');
@@ -47,13 +47,31 @@ h3{
 .space{
 	display: none;
 }
+@media (min-width: 481px){}
+	.image a{
+		letter-spacing: normal;
+		-webkit-transition: letter-spacing 2s ease-in;
+			 -moz-transition: letter-spacing 2s ease-in;
+				-ms-transition: letter-spacing 2s ease-in;
+				 -o-transition: letter-spacing 2s ease-in;
+						transition: letter-spacing 2s ease-in;
+	}
+	.image a:hover{
+		letter-spacing: 5px;
+		-webkit-transition: letter-spacing 2s ease-in;
+			 -moz-transition: letter-spacing 2s ease-in;
+				-ms-transition: letter-spacing 2s ease-in;
+				 -o-transition: letter-spacing 2s ease-in;
+						transition: letter-spacing 2s ease-in;
+	}
+}
 .top{
 	height: 100vh;
 	position: relative;
 }
 
 .top h1 {
-    opacity: 0;
+  opacity: 0;
 	padding-top: 100px;
     -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
        -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
@@ -65,4 +83,9 @@ h3{
 .top h1.load {
     opacity: 1;
     padding-top: 0px;
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 3em;
+	}
 }

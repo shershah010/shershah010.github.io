@@ -5,6 +5,9 @@
 	padding: 0px;
 	scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
 	/* background-color: #fffeef; */
 }
