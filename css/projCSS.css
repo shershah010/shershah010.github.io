@@ -67,12 +67,17 @@ a:hover{
          -o-transition: opacity 2s ease-in, padding-top 1s ease-out;
             transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
-
+img {
+	display: none;
+}
 .wrap.load {
     opacity: 1;
     padding-top: 0px;
 }
-@@media (pointer: coarse) {
+@media (pointer: coarse) {
+	body{
+		margin: 5px;
+	}
 	.cont{
 		display: block;
 	}
@@ -81,24 +86,29 @@ a:hover{
 		position: relative;
 		float: none;
 		min-heigth: 0px;
+		height: 100%;
+		transform: translateY(0%);
 	}
 	.right {
-		position: relative;
-		width: 100%;
-		float: none;
-		min-height: 0px;
-		height: auto;
+		display: none;
+	}
+	img{
+		display: block;
 	}
 	h1{
-		font-size: 15em;
+		font-size: 9em;
 	}
 	h3{
-		font-size: 12em;
+		font-size: 7em;
 	}
 	h4 {
-		font-size: 10em;
+		font-size: 6em;
 	}
 	p{
-		font-size: 8em;
+		font-size: 4em;
+		line-height: 2em;
+	}
+	a{
+		font-size: 4em;
 	}
 }
