@@ -75,6 +75,15 @@ img {
     padding-top: 0px;
 }
 @media (pointer: coarse) {
+	.top{
+		height: auto;
+		margin-bottom: 5em;
+
+	}
+	.wrap{
+		transform: translateY(0%);
+		position: relative;
+	}
 	body{
 		margin: 5px;
 	}
@@ -85,7 +94,7 @@ img {
 		width: 100%;
 		position: relative;
 		float: none;
-		min-heigth: 0px;
+		min-height: 0px;
 		height: 100%;
 		transform: translateY(0%);
 	}
@@ -93,12 +102,15 @@ img {
 		display: none;
 	}
 	img{
+		margin-top: 10px;
 		display: block;
+		width: 100%;
 	}
 	h1{
 		font-size: 9em;
 	}
 	h3{
+		padding-top: 20px;
 		font-size: 7em;
 	}
 	h4 {
