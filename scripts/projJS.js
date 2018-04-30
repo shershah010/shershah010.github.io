@@ -16,6 +16,6 @@ $(document).ready(function(){
 });
 
 function menu(mu){
-  $(mu).toggleClass("change");
+   mu.classList.toggle("change");
   $(".nav").toggleClass("not_active");
 }
