@@ -14,3 +14,8 @@ $(document).ready(function(){
   }
 	$(".wrap").addClass("load");
 });
+
+function menu(mu){
+  $(mu).toggleClass("change");
+  $(".nav").toggleClass("not_active");
+}
