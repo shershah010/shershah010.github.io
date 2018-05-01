@@ -77,23 +77,61 @@ p {
 	color: gray;
 	text-decoration: underline;
 }
-.main {
-	display: block;
+
+.nave{
+	z-index: 2;
 	position: fixed;
-	right: 2%;
-	top: 5%;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.9);
 }
-.main li{
-	padding: 10px;
+.not_active{
+		display: none;
+}
+.container {
+	display: inline-block;
+	cursor: pointer;
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	z-index: 3;
+}
+.bar1, .bar2, .bar3 {
+    width: 80px;
+    height: 10px;
+    background-color: black;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+.nave ul{
+	list-style: none;
+	line-height: 4em;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nave a{
+	color: white;
+}
+.nave li a:hover{
+	text-decoration: underline;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+    transform: rotate(-45deg) translate(-10px, 10px);
+		background-color: white;
+}
+.change .bar2 {
+	opacity: 0;
 	background-color: white;
 }
-.main li a{
-	color: black;
-	text-decoration: none;
-}
-.main li a:hover{
-	color: gray;
-	text-decoration: underline;
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-20px, -20px);
+    transform: rotate(45deg) translate(-18px, -18px);
+		background-color: white;
 }
 .item{
 	margin: 50px;
@@ -141,9 +179,6 @@ h5{
 	font-size: 1.5em;
 }
 @media (pointer: coarse){
-	.main{
-			display: none;
-		}
 		.nav {
 			display: none;
 		}
