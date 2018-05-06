@@ -22,7 +22,7 @@ body{
 	background-attachment: fixed;
 	color: white;
 }
-.wrapper{
+.title{
 
 	margin: auto 10%;
 	position: absolute;
@@ -36,7 +36,7 @@ body{
             transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
 
-.wrapper.load {
+.title.load {
     opacity: 1;
     padding-top: 0px;
 }

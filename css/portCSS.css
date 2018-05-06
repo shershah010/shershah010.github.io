@@ -3,6 +3,11 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 4em;
+  margin: 10px;
 }
 .nav{
 	z-index: 2;
@@ -74,4 +79,22 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.wrapper{
+
+	margin: auto 10%;
+	position: absolute;
+	top: 40%;
+  opacity: 0;
+	padding-top: 100px;
+    -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
+       -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
+        -ms-transition: opacity 2s ease-in, padding-top 1s ease-out;
+         -o-transition: opacity 2s ease-in, padding-top 1s ease-out;
+            transition: opacity 2s ease-in, padding-top 1s ease-out;
+}
+
+.wrapper.load {
+    opacity: 1;
+    padding-top: 0px;
 }
