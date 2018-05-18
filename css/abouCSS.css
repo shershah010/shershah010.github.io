@@ -5,9 +5,6 @@
 	padding: 0px;
 	scroll-behavior: smooth;
 }
-::-webkit-scrollbar {
-    display: none;
-}
 body{
 	/* background-color: #fffeef; */
 }
@@ -22,7 +19,7 @@ body{
 	background-attachment: fixed;
 	color: white;
 }
-.title{
+.wrapper{
 
 	margin: auto 10%;
 	position: absolute;
@@ -36,7 +33,7 @@ body{
             transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
 
-.title.load {
+.wrapper.load {
     opacity: 1;
     padding-top: 0px;
 }

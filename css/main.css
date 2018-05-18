@@ -50,19 +50,19 @@ h3{
 @media (pointer: fine){
 	.image a{
 		letter-spacing: normal;
-		-webkit-transition: letter-spacing 2s ease-in;
-			 -moz-transition: letter-spacing 2s ease-in;
-				-ms-transition: letter-spacing 2s ease-in;
-				 -o-transition: letter-spacing 2s ease-in;
-						transition: letter-spacing 2s ease-in;
+		-webkit-transition: letter-spacing 1s ease-in;
+			 -moz-transition: letter-spacing 1s ease-in;
+				-ms-transition: letter-spacing 1s ease-in;
+				 -o-transition: letter-spacing 1s ease-in;
+						transition: letter-spacing 1s ease-in;
 	}
 	.image a:hover{
 		letter-spacing: 5px;
-		-webkit-transition: letter-spacing 2s ease-in;
-			 -moz-transition: letter-spacing 2s ease-in;
-				-ms-transition: letter-spacing 2s ease-in;
-				 -o-transition: letter-spacing 2s ease-in;
-						transition: letter-spacing 2s ease-in;
+		-webkit-transition: letter-spacing 1s ease-in;
+			 -moz-transition: letter-spacing 1s ease-in;
+				-ms-transition: letter-spacing 1s ease-in;
+				 -o-transition: letter-spacing 1s ease-in;
+						transition: letter-spacing 1s ease-in;
 	}
 }
 .top{
