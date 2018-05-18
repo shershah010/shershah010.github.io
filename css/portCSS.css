@@ -6,7 +6,7 @@
   text-align: center;
 }
 h1{
-  font-size: 4em;
+	font-size: 6vw;
   margin: 10px;
 }
 .nav{
@@ -80,7 +80,7 @@ h1{
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.wrapper{
+.top{
 
 	margin: auto 10%;
 	position: absolute;
@@ -94,7 +94,7 @@ h1{
             transition: opacity 2s ease-in, padding-top 1s ease-out;
 }
 
-.wrapper.load {
+.top.load {
     opacity: 1;
     padding-top: 0px;
 }

@@ -2,7 +2,7 @@ function add_item(title, para, special, id){
 	return "<div id='" + id + "' class='item'> <h4>" + title + "</h4><p>" + para + "</p>" + special + "</div><hr>";
 }
 $(document).ready(function(){
-	var edu = "<ul><li><h5>Computer Science</h5></li><li><p>Intro to CS: A</p></li></ul><ul><li><h5>Math</h5></li><li><p>Integral Calculus: A+</p></li><li><p>Multivariable Calculus: A</p></li></ul><ul><li><h5>Philosophy</h5></li><li><p>Philosophy of Science: A-</p></li></ul>";
+	var edu = "<ul><li><h5>Computer Science</h5></li><li><p>Intro to CS: A+</p></li><li><p>Data Structures: Pending</p></li></ul><ul><li><h5>Math</h5></li><li><p>Integral Calculus: A+</p></li><li><p>Multivariable Calculus: A-</p></li><li><p>Linear Algebra: Pending</p></li></ul><ul><li><h5>Philosophy</h5></li><li><p>Philosophy of Science: A-</p></li></ul>";
 	var lang = "<ul class='lang'><li><p>Java  &#x26AB   &#x26AB   &#x26AB   &#x26AB &#x26AA</p></li><li><p>JavaScript  &#x26AB   &#x26AB   &#x26AB   &#x26AB &#x26AA</p></li><li><p>Python  &#x26AB   &#x26AB   &#x26AB   &#x26AA &#x26AA</p></li><li><p>HTML\\CSS  &#x26AB   &#x26AB   &#x26AB   &#x26AA &#x26AA</p></li><li><p>PHP  &#x26AB   &#x26AB   &#x26AA   &#x26AA &#x26AA</p></li><li><p>C++  &#x26AB   &#x26AB   &#x26AA   &#x26AA &#x26AA</p></li></ul>";
 	var cont = "<ul class='social'><li><a href='mailto:sher.shah010@berkeley.edu'>sher.shah010@berkeley.edu</a></li><li><a href='https://www.linkedin.com/in/sher-s-931286122/'>LinkedIn</a></li><li><a href='img/SherShah_resume.pdf'>resume</a><li></ul>";
 	var comp = "<ul class='comp'><li>Stellar Xplorer Space Competition - 1st place</li><li>FRC Robotics Regional Competition - 1st place</li><li>Intel ISEF Science Fair - 3rd place</li></ul>";
