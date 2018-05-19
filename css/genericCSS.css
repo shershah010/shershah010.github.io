@@ -129,6 +129,6 @@ a:hover{
     opacity: 1;
     padding-top: 0px;
 }
-.nav .wrap{
+.nav, .wrap{
 	text-align: center;;
 }
