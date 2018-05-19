@@ -82,8 +82,11 @@ p {
 .nav a{
 	color: white;
 }
-.nav li a:hover{
+.nav a:hover{
 	text-decoration: underline;
+}
+.nav li {
+  display: block;
 }
 
 /* Attribute That Hids Items */
