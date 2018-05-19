@@ -16,7 +16,8 @@ h3{
 }
 a{
 		color: white;
-
+		display: table-cell;
+		vertical-align: middle;
 }
 #one{
 	background-image: url('../img/projects.png');
@@ -33,6 +34,7 @@ a{
 	background-repeat: no-repeat;
 	background-position: center, center;
 	background-attachment: fixed;
+	display: table;
 }
 .space{
 	display: none;
