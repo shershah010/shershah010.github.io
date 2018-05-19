@@ -13,15 +13,5 @@ $(document).ready(function(){
 	for (var i = 0; i < items.length; i++){
 		$('.content').append(items[i]);
 	}
-	$(".wrapper").addClass("load");
+	$(".wrap").addClass("load");
 });
-
-function menu(mu){
-  $(mu).toggleClass("change");
-  $(".nave").toggleClass("not_active");
-  if ($(mu).hasClass("change")){
-    $("html").css({"margin" : "0", "height" : "100%", "overflow-y" : "hidden"});
-  } else {
-      $("html").css({"margin" : "auto", "height" : "auto", "overflow-y" : "scroll"});
-  }
-}
