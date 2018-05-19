@@ -28,12 +28,7 @@ p{
 	line-height: 3.5vw;
 	padding: 0px 3.5vw 0px 3.5vw;
 }
-a{
-	color: black;
-}
-a:hover{
-	color: gray;
-}
+
 img {
 	display: none;
 }
