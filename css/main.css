@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
-* {
-	text-align: center;
-	font-family: 'Quicksand', sans-serif;
-	margin: 0px;
-	padding: 0px;
-}
 h1{
 	font-size: 16vh;
 	font-weight: 800;
@@ -20,12 +13,6 @@ h3{
 	font-size: 10vh;
 	color: white;
 
-}
-.wrap{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 }
 #one{
 	background-image: url('../img/projects.png');
@@ -63,25 +50,6 @@ h3{
 				 -o-transition: letter-spacing 1s ease-in;
 						transition: letter-spacing 1s ease-in;
 	}
-}
-.top{
-	height: 100vh;
-	position: relative;
-}
-
-.wrap {
-  opacity: 0;
-	padding-top: 100px;
-    -webkit-transition: opacity 2s ease-in, padding-top 1s ease-out;
-       -moz-transition: opacity 2s ease-in, padding-top 1s ease-out;
-        -ms-transition: opacity 2s ease-in, padding-top 1s ease-out;
-         -o-transition: opacity 2s ease-in, padding-top 1s ease-out;
-            transition: opacity 2s ease-in, padding-top 1s ease-out;
-}
-
-.wrap.load {
-    opacity: 1;
-    padding-top: 0px;
 }
 @media (pointer: coarse) {
 	h1 {
