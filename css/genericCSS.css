@@ -134,14 +134,19 @@ a:hover{
 }
 
 /* Styles For Mobile And Touch Screen Devices */
+@@media (pointer: course) {
+
+}
 .top{
   height: auto;
   margin-bottom: 5em;
 
 }
 .wrap{
-  transform: translateY(0%);
+  top: 0px;
+  left: 0px;
   position: relative;
+  transform: translate(0%, 0%);
 }
 h1{
   font-size: 9em;
