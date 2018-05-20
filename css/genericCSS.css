@@ -135,33 +135,32 @@ a:hover{
 
 /* Styles For Mobile And Touch Screen Devices */
 @@media (pointer: course) {
+  .top{
+    height: auto;
+    margin-bottom: 5em;
 
-}
-.top{
-  height: auto;
-  margin-bottom: 5em;
+  }
+  .wrap{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    transform: translate(0%, 0%);
+  }
+  h1{
+    font-size: 9em;
+  }
+  h3{
 
-}
-.wrap{
-  top: 0px;
-  left: 0px;
-  position: relative;
-  transform: translate(0%, 0%);
-}
-h1{
-  font-size: 9em;
-}
-h3{
+    font-size: 7em;
+  }
+  h4 {
+    font-size: 6em;
+  }
+  h5{
+    font-size: 5em;
+  }
 
-  font-size: 7em;
-}
-h4 {
-  font-size: 6em;
-}
-h5{
-  font-size: 5em;
-}
-
-a{
-  font-size: 4em;
+  a{
+    font-size: 4em;
+  }
 }
