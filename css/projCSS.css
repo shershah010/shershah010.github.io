@@ -34,15 +34,6 @@ img {
 }
 
 @media (pointer: coarse) {
-	.top{
-		height: auto;
-		margin-bottom: 5em;
-
-	}
-	.wrap{
-		transform: translateY(0%);
-		position: relative;
-	}
 	body{
 		margin: 5px;
 	}
@@ -67,21 +58,11 @@ img {
 		display: block;
 		width: 100%;
 	}
-	h1{
-		font-size: 9em;
-	}
 	h3{
 		padding-top: 20px;
-		font-size: 7em;
-	}
-	h4 {
-		font-size: 6em;
 	}
 	p{
-		font-size: 4em;
-		line-height: 2em;
-	}
-	a{
-		font-size: 4em;
+	  font-size: 4em;
+	  line-height: 2em;
 	}
 }

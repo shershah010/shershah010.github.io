@@ -52,26 +52,9 @@ ul{
 	font-size: 1.5em;
 }
 @media (pointer: coarse){
-		.nav {
-			display: none;
-		}
-		.wrapper{
-			position: relative;
-			transform: translateY(0%);
-		}
 		.cen{
-
 			min-height: 100vh;
 			height: 100%;
-		}
-		h1{
-			font-size: 10em;
-		}
-		h3{
-			font-size: 7em;
-		}
-		h4, h5{
-			font-size: 5em;
 		}
 		p, li h5{
 			font-size: 3em;
@@ -88,9 +71,6 @@ ul{
 
 		}
 		#a li p{
-			font-size: 3em;
-		}
-		a{
 			font-size: 3em;
 		}
 }
