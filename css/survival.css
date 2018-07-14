@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/* Global Variables */
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Sections */
+main{
+  width: 100vw;
+}
+
+.urgent{
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0),
+}
+
+.daily{
+  color: rgb(107, 107, 107);
+  border: 3px solid rgb(107, 107, 107);
+}
+ul{
+  color: rgb(107, 107, 107)
+}
