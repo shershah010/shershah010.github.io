@@ -15,7 +15,7 @@ main{
 
 .urgent{
   color: rgb(0, 0, 0);
-  border: 3px solid rgb(0, 0, 0),
+  border: 3px solid rgb(0, 0, 0);
 }
 
 .daily{
@@ -24,7 +24,7 @@ main{
 }
 ul{
   color: rgb(107, 107, 107);
-	test-align: left;
+	text-align: left;
 	list-style: none;
 }
 
