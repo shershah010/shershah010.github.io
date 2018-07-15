@@ -9,6 +9,9 @@ body {
 }
 
 /* Sections */
+section{
+	margin: 10px;
+}
 main{
   width: 100vw;
 }
