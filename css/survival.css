@@ -25,4 +25,10 @@ main{
 ul{
   color: rgb(107, 107, 107);
 	test-align: left;
+	list-style: none;
+}
+
+/* Hide Section */
+.hidden{
+	display: hidden;
 }
