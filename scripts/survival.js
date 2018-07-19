@@ -88,5 +88,6 @@ function confirm(){
 	reject();
 }
 
-document.querySelector(".urgent button:nth-child(2)").addEventListener("click", confirm);
-document.querySelector(".urgent button:nth-child(3)").addEventListener("click", reject);
+var btn = document.querySelectorAll(".button)");
+btn[0].addEventListener("click", confirm);
+btn[1].addEventListener("click", reject);
