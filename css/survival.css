@@ -33,5 +33,5 @@ ul{
 
 /* Hide Section */
 .hidden{
-	display: hidden;
+	display: none;
 }
