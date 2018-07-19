@@ -39,6 +39,11 @@ button{
   margin: 10px;
 }
 
+button:hover{
+	background-color: rgb(181, 181, 181);
+	border-width: 3px;
+}
+
 ul{
   color: rgb(107, 107, 107);
 	text-align: left;
