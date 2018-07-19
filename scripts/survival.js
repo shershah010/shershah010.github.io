@@ -69,7 +69,7 @@ setInterval(function(){
 		document.querySelector(".urgent").classList.remove("hidden");
 		var rand = Math.floor(Math.random()*urgent_list.length);
 		urgent_message.innerHTML = urgent_list[rand];
-		urgent_fn = function(){add_detection(rand); };
+		urgent_fn = function(){ add_detection(rand); };
 	} else {
 		document.querySelector(".urgent").classList.add("hidden");
 		urgent_message.innerHTML = "";
@@ -88,5 +88,5 @@ function confirm(){
 	reject();
 }
 
-document.querySelector("button:nth-child(1)").addEventListener("click", confirm);
-document.querySelector("button:nth-child(2)").addEventListener("click", reject);
+document.querySelector(".urgent button:nth-child(2)").addEventListener("click", confirm);
+document.querySelector(".urgent button:nth-child(3)").addEventListener("click", reject);
