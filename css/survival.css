@@ -25,13 +25,22 @@ main{
   color: rgb(107, 107, 107);
   border: 3px solid rgb(107, 107, 107);
 }
-ul{
-  color: rgb(107, 107, 107);
-	text-align: left;
-	list-style: none;
-}
 
 /* Hide Section */
 .hidden{
 	display: none;
+}
+
+/* Single items */
+button{
+	border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul{
+  color: rgb(107, 107, 107);
+	text-align: left;
+	list-style: none;
 }

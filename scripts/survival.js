@@ -46,12 +46,13 @@ member_label.innerHTML = "Members (" + (member_food + member_supplies) + ")";
 function add_detection(id){
 	switch(id){
 	case 1:
+		member_food += 1;
 		break;
 	}
 }
 var urgent_fn;
 setInterval(function(){
-	food_cost = 3 + member_food + member_supplies;
+	food_cost = 3 * (member_food + member_supplies);
 	time = time + 1;
 	timerLabel.innerHTML = time + " hrs";
 	food += weather["food"] * member_food;
@@ -84,6 +85,7 @@ function reject(){
 }
 function confirm(){
 	urgent_fn();
+	reject();
 }
 
 document.querySelector("button:nth-child(1)").addEventListener("click", confirm);
