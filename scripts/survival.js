@@ -88,6 +88,6 @@ function confirm(){
 	reject();
 }
 
-var btn = document.querySelectorAll(".button)");
+var btn = document.querySelectorAll(".button");
 btn[0].addEventListener("click", confirm);
 btn[1].addEventListener("click", reject);
