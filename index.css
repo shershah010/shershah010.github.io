@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vh;
+    height: 50vh;
+    border: 150px solid black;
+    border-top: 150px solid transparent;
+    border-radius: 100%;
+    transform-origin: center center;
+    z-index: 2;
+}
+
+.bubble {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    transition: 0.3s;
+}
+
+.bubble:hover {
+    width: 120px;
+    height: 120px;
+    color: white;
+
+}
+
+.edu {
+    top: 15%;
+    left: 50%;
+}
+
+.exp {
+    top: 50%;
+    left: 33%;
+}
+
+.proj {
+    top: 85%;
+    left: 50%;
+}
