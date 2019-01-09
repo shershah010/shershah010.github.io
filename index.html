@@ -2,15 +2,40 @@
 <html>
     <head>
         <title>Sher Shah</title>
-        <link href="index.css" type="text/css", rel="stylesheet">
+        <link href="index.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="circle"></div>
-            <div class="bubble edu"><a>Education</a></div>
-            <div class="bubble exp"><a>Experience</a></div>
-            <div class="bubble proj"><a>Projects</a></div>
-        </div>
         <script src="index.js" type="text/javascript"></script>
+        <div class="header">
+            <h1>Welcome</h1>
+            <p>to hell</p>
+        </div>
+        <div class="name">
+            <h3>my name is</h3>
+            <h1>Sher Shah</h1>
+        </div>
+        <div class="me info">
+            <h3>About Me</h3>
+            <script>
+                createTab("Education", "", "images/ucb.jpg", "I am a Sophmore at the University of California, Berkeley. I am a computer science major with an emphasis on theory and mathematics. My current GPA is a 3.7.", ".me");
+                createTab("BG@B", "", "images/bg.jpg", "One of the clubs I am involved in is the Board Games at Berkeley Club. As the name suggests, we play board games. Lately, I have gotten into D&D and will be playing that in the near future.", ".me");
+            </script>
+        </div>
+        <div class="exp info">
+            <h3>Experience</h3>
+            <script>
+                createTab("Web Developer - AskOski", "Aug 2018 - Present", "images/ask.jpg", "Used SASS, JavaScript, AngularJS, and git to create a feature tour for the site AskOski which recommends classes to students using machine learning. Converted regular CSS to SCSS and developed a JavaScript library that creates customizable tool tips and tutorials.", ".exp");
+                createTab("Tutor - Kumon", "Jun 2016 - Jul 2017", "images/kumon.jpg", "Tutored individual students in math, literature, and grammar. Taught groups of Pre-K to high school students in various subjects from literary composition to calculus. Trained and supervised a team of 10 tutors. Maintained business records and preformed accountancy.", ".exp");
+                createTab("Intern - Boeing", "Jun 2016 - Aug 2017", "images/boe.png", "Lead team of three interns to develop a program that stream-lined the purchase of proprietary software to third parties. Swiftly learned a new language and framework to develop said program. Implemented into Boeing's purchasing process. Taught interns and employees how to use said program. Learned to use Red Hat, a professional Linux based operating system.", ".exp");
+            </script>
+        </div>
+        <div class="proj info">
+            <h3>Projects</h3>
+            <script>
+                createTab("talis lux", "<a href='https://github.com/shershah010/talus-lux'>source code</a>", "images/talis_lux.png", "Talis Lux is a little program that helps people play the table top rpg called Tales From The Loop. It was made with HTML, CSS, JavaScript, the Electron API, node.js and love. I hope to get D&D support soon.", ".proj");
+                createTab("fishing tour", "<a href='https://www.npmjs.com/package/fishing-tour'>source code</a>", "images/talis_lux.png", "This is a small JavaScript library that helps make tutorials and feature tours on your website.", ".proj");
+                createTab("scheme text editor", "<a href='https://github.com/shershah010/scheme-editor'>source code</a>", "images/talis_lux.png", "A text editor that helped me write scheme code.", ".proj");
+            </script>
+        </div>
     </body>
 </html>

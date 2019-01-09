@@ -1,8 +1,6 @@
-document.querySelector(".circle").addEventListener("mousemove", function(e) {
-    let x = e.pageX - this.offsetLeft;
-    let y = e.pageY - this.offsetTop;
-    let theta = Math.atan2(y, x) + (Math.PI / 2);
-    theta = theta * 180 / Math.PI;
-    console.log(theta);
-    this.setAttribute("style", "transform: translate(-50%, -50%) rotate(" + theta + "deg)")
-});
+function createTab(title, subtitle, image, desciption, parent) {
+    var div = document.createElement("div");
+    div.innerHTML = "<div class=\"left\" style=\"background-image: url('" + image + "');\"></div><div class=\"right\"><h1>" + title + "</h1><h3>" +  subtitle + "</h3><p>" + desciption + "</p></div>";
+    div.classList.add("tab");
+    document.querySelector(parent).appendChild(div);
+}
