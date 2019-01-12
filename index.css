@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300i,400|Roboto:400,400i|Amatic+SC");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -16,6 +17,11 @@ p {
   font-size: 20px;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 .header {
   height: 100vh;
   width: 100%;
@@ -27,15 +33,42 @@ p {
   transform: translateY(-50%);
 }
 .header p {
+  animation-name: hint;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
   bottom: 5%;
   font-style: italic;
   position: absolute;
   right: 5%;
 }
 
+@keyframes hint {
+  0% {
+    color: #fff;
+    opacity: 0;
+  }
+  85% {
+    color: #fff;
+    opacity: 0;
+  }
+  90% {
+    color: #900;
+    font-family: "Amatic SC", cursive;
+    opacity: 1;
+  }
+  95% {
+    color: #fff;
+    opacity: 0;
+  }
+  100% {
+    color: #fff;
+    opacity: 0;
+  }
+}
 .name {
   background: #fff;
   border-top: 1px solid #000;
+  padding-top: 5%;
   padding-left: 5%;
   position: relative;
 }
@@ -44,12 +77,65 @@ p {
   padding: 5px;
 }
 .name h1 {
+  animation-name: strike;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
   font-style: italic;
 }
 
+@keyframes strike {
+  0% {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+  85% {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    -ms-transform: skewX(0deg);
+    /* IE 9 */
+    -webkit-transform: skewX(0deg);
+    /* Safari */
+    transform: skewX(0deg);
+    /* Standard syntax */
+  }
+  86% {
+    -ms-transform: skewX(-60deg);
+    /* IE 9 */
+    -webkit-transform: skewX(-60deg);
+    /* Safari */
+    transform: skewX(-60deg);
+    /* Standard syntax */
+  }
+  87% {
+    -ms-transform: skewX(0deg);
+    /* IE 9 */
+    -webkit-transform: skewX(0deg);
+    /* Safari */
+    transform: skewX(0deg);
+    /* Standard syntax */
+  }
+  90% {
+    color: #900;
+    font-family: "Amatic SC", cursive;
+    text-decoration: line-through;
+  }
+  95% {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+  100% {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+  }
+}
 .info {
   background: #fff;
-  padding: 50px;
+  padding: 20px 0px;
   position: relative;
   text-align: center;
 }
@@ -57,26 +143,33 @@ p {
 .tab {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  margin: 20px;
+  margin: 5vw;
   position: relative;
   text-align: center;
-  height: 300px;
+  height: 25vw;
+  width: 90vw;
 }
 .tab h1 {
   font-size: 35px;
+  padding: 5px 0;
 }
 .tab h3 {
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-style: italic;
+  font-weight: 300;
+  padding: 5px 0;
 }
 .tab p {
   font-size: 18px;
+  padding: 5px 0;
 }
 .tab .left {
   height: 100%;
   width: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 20px 0px 0px 20px;
   float: left;
 }
@@ -86,6 +179,75 @@ p {
   left: 75%;
   transform: translate(-50%, -50%);
   width: 45%;
+}
+
+.hidden {
+  display: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+}
+
+.reveal {
+  animation-name: reveal;
+  animation-duration: 7s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    background: transparent;
+  }
+  100% {
+    opacity: 1;
+    background: #000;
+  }
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: transparent;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #111;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
 }
 
 /*# sourceMappingURL=index.css.map */
