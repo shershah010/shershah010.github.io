@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400|Roboto:400,400i|Amatic+SC');
+
+$bg-color: #111;
+
+* {
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  background: $bg-color;
+}
+
+h1 { font-size: 86px; }
+
+h3 { font-size: 43px; }
+
+p { font-size: 20px; }
+
+a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+
+    h1 {
+        position: fixed;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    p {
+        color: #900;
+        bottom: 5%;
+        font-size: 25px;
+        position: absolute;
+        right: 5%;
+        -ms-transform: skewX(-20deg); /* IE 9 */
+        -webkit-transform: skewX(-20deg); /* Safari */
+        transform: skewX(-20deg); /* Standard syntax */
+    }
+}
+
+.name {
+    background: $bg-color;
+    border-top: 1px solid #fff;
+    padding-top: 5%;
+    padding-left: 5%;
+    position: relative;
+
+    h1, h3 {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    h1 {
+      color: #900;
+      font-family: "Amatic SC", cursive;
+      text-decoration: line-through;
+      -ms-transform: skewX(-20deg); /* IE 9 */
+      -webkit-transform: skewX(-20deg); /* Safari */
+      transform: skewX(-20deg); /* Standard syntax */
+    }
+}
+
+.info {
+    background: $bg-color;
+    padding: 20px 0px;
+    position: relative;
+    text-align: center;
+}
+
+.elink {
+  color: #900;
+  text-decoration: none;
+
+  &:hover {
+    color: #b00;
+    text-decoration: line-through;
+  }
+}
+
+.tab {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.95), 0 8px 22px 0 rgba(0, 0, 0, 0.94);
+    border-radius: 20px;
+    // cursor: pointer;
+    margin: 5vw;
+    position: relative;
+    text-align: center;
+    height: 25vw;
+    width: 90vw;
+    -webkit-transition: height 2s, background-color 2s, width 2s, margin 2s; /* Safari */
+    transition: height 2s, background-color 2s, width 2s, margin 2s;
+
+    a:hover {
+      text-decoration: line-through;
+    }
+
+    h1 {
+        font-size: 45px;
+        padding: 5px 0;
+    }
+
+    h3 {
+        color: #900;
+        font-size: 30px;
+        font-weight: 300;
+        padding: 5px 0;
+    }
+
+    p {
+        font-size: 25px;
+        padding: 5px 0;
+    }
+
+    .left {
+        height: 100%;
+        width: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px 0px 0px 20px;
+        float: left;
+    }
+
+    .right {
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        width: 45%;
+    }
+
+    &:hover {
+      height: 26vw;
+      background-color: darken($bg-color, 3%);
+    }
+
+    &.fullscreen {
+      height: 100vh;
+      width: 100%;
+      border-radius: 0px;
+      margin: 0px;
+
+      .left {
+        border-radius: 0;
+        background-repeat: repeat-y;
+        background-size: contain;
+      }
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
