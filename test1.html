@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sher Shah</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="three.min.js"></script>
+  </head>
+  <body>
+    <script src="test1.js"></script>
+    <div class="nav hidden">
+      <ul>
+        <li><a href="#about" onclick="toggleMenu()">ABOUT ME</a></li>
+        <li><a href="#education" onclick="toggleMenu()">EDUCATION</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">EXPERIENCE</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+      </ul>
+    </div>
+    <div class="background">
+      <div class="menu" onclick="toggleMenu()">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+      </div>
+      <svg>
+        <text x="1em" y="2em" fill="white">Sher</text>
+        <text x="2.0em" y="2.6em" fill="white">Shah</text>
+      </svg>
+      <div id="about">
+        <h1>ABOUT ME</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend nulla ac convallis venenatis. Donec bibendum facilisis nisl ut vulputate. Duis posuere rutrum lectus, id ultrices arcu maximus et. Praesent dignissim, leo quis tristique maximus, mi mauris tempus tortor, ac tincidunt tortor velit et lectus. Morbi sed pharetra urna. Donec ultrices felis elit, ut blandit turpis tempus vel. Nunc feugiat leo metus, eget pharetra mi lobortis in. Praesent porta ultricies ante, et ullamcorper nulla luctus vel. Sed eget risus at neque venenatis cursus vitae quis leo. Nulla tristique consectetur placerat. Curabitur blandit vel urna id malesuada. Cras tortor eros, venenatis eu malesuada vel, malesuada in nisi. Phasellus gravida quam urna, ac rhoncus justo malesuada eu. Fusce non est quam. Nam est risus, hendrerit ullamcorper feugiat vel, iaculis quis purus. </p>
+      </div>
+      <div id="education">
+        <h1>EDUCATION</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend nulla ac convallis venenatis. Donec bibendum facilisis nisl ut vulputate. Duis posuere rutrum lectus, id ultrices arcu maximus et. Praesent dignissim, leo quis tristique maximus, mi mauris tempus tortor, ac tincidunt tortor velit et lectus. Morbi sed pharetra urna. Donec ultrices felis elit, ut blandit turpis tempus vel. Nunc feugiat leo metus, eget pharetra mi lobortis in. Praesent porta ultricies ante, et ullamcorper nulla luctus vel. Sed eget risus at neque venenatis cursus vitae quis leo. Nulla tristique consectetur placerat. Curabitur blandit vel urna id malesuada. Cras tortor eros, venenatis eu malesuada vel, malesuada in nisi. Phasellus gravida quam urna, ac rhoncus justo malesuada eu. Fusce non est quam. Nam est risus, hendrerit ullamcorper feugiat vel, iaculis quis purus. </p>
+      </div>
+      <div id="experience">
+        <h1>EXPERIENCE</h1>
+        <div class="askoski">
+          <img src='img/askoski-logo.png'>
+          <h2>CAHL</h2>
+          <h3>Software Developer</h3>
+          <h4>Oct 2018 - Present</h4>
+          <ul>
+            <li>Integral part of developing an artificially intelligent course recommendation system offered school-wide</li>
+            <li>Migrate CSS to SASS, condensing over 2000 lines of redundant code</li>
+            <li>Develop a feature tour API and implement over key tools of the site</li>
+            <li>Integrate Material-UI, the most popular React UI framework, onto the site</li>
+            <li>Trained on agile project methodologies and CI/CD</li>
+          </ul>
+        </div>
+        <div class="kumon">
+          <img src='img/kumon.jpg'>
+          <h2>KUMON</h2>
+          <h3>Tutor</h3>
+          <h4>June 2016 - July 2017</h4>
+          <ul>
+            <li>Tutored 50+ students in math, literature, and grammar</li>
+            <li>Trained and supervised a team of 10 tutors</li>
+            <li>Maintained business records and preformed business accountancy</li>
+          </ul>
+        </div>
+        <div class="cabrillo">
+          <img src='img/cabrillo.png'>
+          <h2>CMA</h2>
+          <h3>Researcher</h3>
+          <h4>Sep 2015 - Mar 2017</h4>
+          <ul>
+            <li>Designed an award-winning experiment testing the effects of temperature on phytoplankton during the chlorination process</li>
+            <li>Used quantitative analysis to conclude that temperature has no effect on the chlorination process</li>
+          </ul>
+        </div>
+        <div class="boeing">
+          <img src='img/boeing.jpg'>
+          <h2>BOEING</h2>
+          <h3>Intern</h3>
+          <h4>June 2016 - Aug 2017</h4>
+          <ul>
+            <li>Led 3 interns in developing an Excel and VBA project which streamlined the sale of proprietary software</li>
+            <li>Directed 15 IT interns in creating a database holding hundreds of interns’ information</li>
+            <li>Present to corporate executives, detailing software development and proprietary software status</li>
+          </ul>
+        </div>
+      </div>
+      <div id="projects">
+        <h1>PROJECTS</h1>
+        <div class="project">
+          <h2>TALIS LUX</h2>
+          <img src="img/talis_lux.png">
+          <div class="info">
+            <p>Talis Lux is a little program that helps people play the table top rpg called Tales From The Loop.</p>
+            <a href="https://github.com/shershah010/talus-lux" target="_blank">source code</a>
+            <p>HTML</p> <p>CSS</p> <p>JavaScript</p> <p>Node.JS</p>  <p>Electron API</p>
+          </div>
+        </div>
+        <div class="project">
+          <h2>FISHING TOUR</h2>
+          <img src="img/ft.png">
+          <div class="info">
+            <p>This is a small JavaScript library that helps make tutorials and feature tours on any website.</p>
+            <a href="https://github.com/shershah010/fishing-tour" target="_blank">source code</a>
+            <p>JavaScript</p> <p>Node.JS</p>
+          </div>
+        </div>
+        <div class="project">
+          <h2>SCHEME TEXT EDITOR</h2>
+          <img src="img/ste.png">
+          <div class="info">
+            <p>A text editor that helped me write scheme code.</p>
+            <a href="https://github.com/shershah010/scheme-editor" target="_blank">source code</a>
+            <p>Java</p> <p>JavaFX</p> <p>CSS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="menu.js"></script>
+  </body>
+</html>
