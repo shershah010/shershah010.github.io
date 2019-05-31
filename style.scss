@@ -163,13 +163,41 @@ a {
 }
 
 #about {
-  margin: 50px 10% 0px 40%;
+  margin: 50px 10% 20em 40%;
   padding: 50px;
+  position: relative;
+
+  h1, p {
+    z-index: 2;
+    position: relative;
+  }
+
+  img {
+    position: absolute;
+    left: -55%;
+    top: -50%;
+    height: 50em;
+    z-index: 1;
+  }
 }
 
 #education {
   margin: 100px 45% 0px 5%;
   padding: 50px;
+  position: relative;
+
+  h1, p {
+    z-index: 2;
+    position: relative;
+  }
+
+  img {
+    position: absolute;
+    left: 85%;
+    top: 20%;
+    height: 30em;
+    z-index: 1;
+  }
 }
 
 #experience {
