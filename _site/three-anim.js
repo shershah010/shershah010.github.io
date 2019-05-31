@@ -33,7 +33,7 @@ directionalLight.position.x = -1
 scene.add( directionalLight );
 
 // Create a Cube Mesh with basic material
-var geometry = new THREE.SphereGeometry(4, 32, 32);
+var geometry = new THREE.SphereGeometry(3, 7, 7);
 var material = new THREE.MeshPhysicalMaterial( { color: "#ff1111" } );
 var sphere = new THREE.Mesh( geometry, material );
 
@@ -47,8 +47,8 @@ var render = function () {
 
   sphere.rotation.x += 0.01;
   sphere.rotation.y += 0.01;
-  sphere.position.x =  5 * Math.sin(t);
-  t += 0.01;
+  // sphere.position.x =  5 * Math.sin(t);
+  // t += 0.01;
   // Render the scene
   renderer.render(scene, camera);
 };
