@@ -33,7 +33,7 @@ directionalLight.position.x = -1
 scene.add( directionalLight );
 
 // Create a Cube Mesh with basic material
-var geometry = new THREE.SphereGeometry(3, 7, 7);
+var geometry = new THREE.SphereGeometry(0, 7, 7);
 var material = new THREE.MeshPhysicalMaterial( { color: "#ff1111" } );
 var sphere = new THREE.Mesh( geometry, material );
 

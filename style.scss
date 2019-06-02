@@ -176,7 +176,7 @@ a {
     position: absolute;
     left: -55%;
     top: -50%;
-    height: 50em;
+    width: 50em;
     z-index: 1;
   }
 }
@@ -195,7 +195,7 @@ a {
     position: absolute;
     left: 85%;
     top: 20%;
-    height: 30em;
+    width: 30em;
     z-index: 1;
   }
 }
@@ -284,6 +284,78 @@ a {
       &:hover {
         background-color: lightgrey;
       }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  .menu {
+    top: 10px;
+    right: 10px;
+  }
+
+  svg {
+    height: 35vh;
+  }
+
+  text {
+    font-size: 4em;
+  }
+
+  h1, h2, h3, h4, h5, h5, h6,  {
+    font-size: 2.5em;
+    line-height: 1em;
+  }
+
+  p, li {
+    font-size: 2em;
+    line-height: 1em;
+    text-align: left;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  #about, #education, #experience, #projects {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #about, #education, #projects {
+    img {
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+      width: 100vw;
+      left: 0px;
+      top: 0px;
+      margin-top: -100px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin-left: -50px;
+  }
+
+  #projects {
+
+    .project {
+      margin: 0px;
+
+      img {
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+        width: 100vw;
+        height: auto;
+      }
+    }
+    .info {
+      position: relative;
+      margin: 0px;
+      padding: 0px;
+      width: 100vw;
     }
   }
 }
