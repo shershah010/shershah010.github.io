@@ -177,7 +177,8 @@ a {
     margin: 0px 0% 0px 5%;
     z-index: 2;
     position: relative;
-    text-align: left; }
+    text-align: left;
+    text-shadow: -1px -1px 0 #555, 1px -1px 0 #555, -1px 1px 0 #555, 1px 1px 0 #555; }
   .project img {
     margin-top: -25px;
     z-index: 1;

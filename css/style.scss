@@ -1,0 +1,274 @@
+---
+# convert to css
+---
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato";
+}
+
+.home {
+  background-color: #dd7373;
+  height: 100vh;
+
+  div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  h1 {
+    margin: 30px;
+    color: #dd7373;
+    -webkit-text-fill-color: #dd7373;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 35vw;
+    letter-spacing: 3px;
+    font-weight: 900;
+
+    &.first-name {
+      float: left;
+    }
+
+    &.last-name {
+      float: right;
+    }
+  }
+}
+
+.whoami {
+    background-color: #ffda21;
+    overflow: hidden;
+
+    h2 {
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 30vw;
+      padding: 30px;
+      white-space: nowrap;
+      position: relative;
+
+      &:first-child {
+        padding-top: 100px;
+      }
+
+      &:last-child {
+        padding-bottom: 100px;
+      }
+
+      &:nth-child(odd) {
+        left: 80%;
+      }
+
+      &:nth-child(even) {
+        right: 140%;
+      }
+    }
+}
+
+.stack, .edu, .exp, .projects {
+  h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 10vw;
+    margin: 0 20px 20px 20px;
+    padding-top: 20px;
+    border-bottom: 5px solid #ffffff;
+  }
+}
+
+.stack {
+  background-color: #3b3561;
+
+  h3 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 20px;
+  }
+
+  table {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+    td {
+      padding: 10px;
+    }
+  }
+}
+
+.edu {
+  background-color: #51a3a3;
+
+  p {
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+}
+
+.exp {
+  background-color: #5fd3bc;
+  padding: 15px;
+
+  .id {
+    border-radius: 20px;
+    margin: 15px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      border-radius: 100%;
+      object-fit: cover;
+      width: 10em;
+      height: 10em;
+      padding: 5px;
+      padding-right: 0px;
+    }
+  }
+
+  h4 {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+.projects {
+  background-color: #00ccff;
+
+  .pro {
+    padding: 30px 0;
+  }
+
+  h3 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 8vw;
+    position: relative;
+    z-index: 2;
+  }
+
+  .pi {
+    width: 90vw;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+    z-index: 1;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  a {
+    color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+    font-size: 6vw;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    }
+  }
+
+  p {
+    color: #ffffff;
+    font-size: 6vw;
+  }
+}
+
+.footer {
+  background-color: #7f2aff;
+  padding: 30px 0;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    margin: 1vw;
+    padding: 4vw;
+    border-radius: 100%;
+
+    img {
+      width: 20vw;
+      height: 20vw;
+      max-width: 100px;
+      max-height: 100px;
+      object-fit: fill;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .home h1 {
+    font-size: 240px;
+  }
+
+  .whoami h2 {
+    font-size: 200px;
+  }
+
+  .stack, .edu, .exp, .projects {
+    h2 {
+      font-size: 60px;
+    }
+  }
+
+  .projects {
+    h3 {
+      font-size: 50px;
+    }
+
+    .pi {
+      width: 540px;
+    }
+
+    p, a {
+      font-size: 36px;
+    }
+  }
+
+  .footer {
+    a {
+      padding: 36px;
+    }
+  }
+}

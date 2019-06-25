@@ -1,0 +1,26 @@
+{ "experience": [
+  {
+    "img": "img/askoski-logo.png",
+    "title": "Web Developer",
+    "company": "CAHLR",
+    "time":  "Oct 18 - Present"
+  },
+  {
+    "img": "img/kumon.jpg",
+    "title": "Tutor",
+    "company": "Kumon",
+    "time": "Jun 16 - Jul 17"
+  },
+  {
+    "img": "img/boeing.jpg",
+    "title": "Intern",
+    "company": "Boeing",
+    "time": "Jun 16 - Aug 16"
+  },
+  {
+    "img": "img/cabrillo.png",
+    "title": "Researcher",
+    "company": "CMA",
+    "time": "Sep 15 - Mar 17"
+  }]
+}
