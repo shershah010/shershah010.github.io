@@ -43,13 +43,14 @@
     .whoami h2:nth-child(even) {
       right: 140%; }
 
-.stack h2, .edu h2, .exp h2, .projects h2 {
+.stack h2, .edu h2, .exp h2, .exp-des h2, .projects h2 {
   text-align: center;
   color: #ffffff;
   font-size: 10vw;
-  margin: 0 20px 20px 20px;
+  margin: 0 20px 0px 20px;
   padding-top: 20px;
-  border-bottom: 5px solid #ffffff; }
+  text-decoration: underline;
+  line-height: 1.5em; }
 
 .stack {
   background-color: #3b3561; }
@@ -72,7 +73,7 @@
     font-size: 1.5em;
     color: #ffffff;
     text-align: center;
-    padding: 30px; }
+    padding: 15px 30px 30px 30px; }
   .edu img {
     display: block;
     margin-left: auto;
@@ -83,12 +84,16 @@
   background-color: #5fd3bc;
   padding: 15px; }
   .exp .id {
-    border-radius: 20px;
     margin: 15px;
     max-width: 400px;
     margin-left: auto;
-    margin-right: auto; }
-    .exp .id:hover {
+    margin-right: auto;
+    text-decoration: none;
+    display: block; }
+    .exp .id table {
+      border-radius: 20px;
+      padding-right: 10px; }
+    .exp .id table:hover {
       background-color: rgba(0, 0, 0, 0.1); }
     .exp .id img {
       border-radius: 100%;
@@ -101,6 +106,29 @@
     color: #ffffff;
     font-size: 1.5em;
     text-align: center; }
+
+.exp-des {
+  display: none;
+  background-color: #5fd3bc;
+  padding: 15px; }
+  .exp-des ul {
+    list-style: inside; }
+  .exp-des h4, .exp-des p, .exp-des li {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 25px; }
+  .exp-des tr {
+    padding: 50px; }
+  .exp-des td {
+    padding: 50px; }
+  .exp-des img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 10em;
+    height: 10em;
+    padding: 5px;
+    padding-right: 0px; }
 
 .projects {
   background-color: #00ccff; }
@@ -169,7 +197,7 @@
   .whoami h2 {
     font-size: 200px; }
 
-  .stack h2, .edu h2, .exp h2, .projects h2 {
+  .stack h2, .edu h2, .exp h2, .exp-des h2, .projects h2 {
     font-size: 60px; }
 
   .projects h3 {
@@ -181,3 +209,9 @@
 
   .footer a {
     padding: 36px; } }
+@media (min-width: 1000px) {
+  .exp {
+    display: none; }
+
+  .exp-des {
+    display: block; } }

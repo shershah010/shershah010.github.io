@@ -1,26 +1,76 @@
 { "experience": [
   {
     "img": "img/askoski-logo.png",
+
     "title": "Web Developer",
+
     "company": "CAHLR",
-    "time":  "Oct 18 - Present"
+
+    "time":  "Oct 18 - Present",
+
+    "url": "2018/08/10/askoski.html",
+
+    "sum": "CAHLR is a laboratory that develops AskOski which is a web application that helps UC Berkeley students find new courses to take that may interest them. Using various machine learning tools and student enrollment data, AskOski can generate classes that students may be interested in, or ones that fulfill degree requirements, or even courses that the students find serendipitous.",
+
+    "things-i-did": [
+      "Integral part of developing an artificially intelligent course recommendation system offered school-wide",
+      "Migrate CSS to SASS, condensing over 2000 lines of redundant code",
+      "Develop a feature tour API and implement over key tools of the site",
+      "Integrate Material-UI, the most popular React UI framework, onto the site",
+      "Trained on agile project methodologies and CI/CD"]
   },
   {
     "img": "img/kumon.jpg",
+
     "title": "Tutor",
+
     "company": "Kumon",
-    "time": "Jun 16 - Jul 17"
+
+    "time": "Jun 16 - Jul 17",
+
+    "url": "2016/06/16/kumon.html",
+
+    "sum": "Kumon is a tutoring service that helps students from Pre-K to twelfth in math and English. Because tutors and students are paired one-to-one, students get a specialized instruction and learn at their own pace. This leads most students to surpass their grade level.",
+
+    "things-i-did": [
+      "Tutored 50+ students in math, literature, and grammar",
+      "Trained and supervised a team of 10 tutors",
+      "Maintained business records and preformed business accountancy"]
   },
   {
     "img": "img/boeing.jpg",
+
     "title": "Intern",
+
     "company": "Boeing",
-    "time": "Jun 16 - Aug 16"
+
+    "time": "Jun 16 - Aug 16",
+
+    "url": "2016/06/04/boeing.html",
+
+    "sum": "Boeing Defense, Space & Security is a division under Boeing that manufactures commercial and military aerospace products. A team within this division is responsible for the upkeep of Boeing's satellite simulator software.",
+
+    "things-i-did": [
+      "Led 3 interns in developing an Excel and VBA project which streamlined the sale of proprietary software",
+      "Directed 15 IT interns in creating a database holding hundreds of interns’ information",
+      "Present to corporate executives, detailing software development and proprietary software status"]
   },
   {
     "img": "img/cabrillo.png",
+
     "title": "Researcher",
+
     "company": "CMA",
-    "time": "Sep 15 - Mar 17"
+
+    "time": "Sep 15 - Mar 17",
+
+    "url": "2015/09/15/cabrillo.html",
+
+    "sum": "Cabrillo Marine Aquarium serves to educate the community of San Pedro about the ocean and the issues that effect the ocean. The Aquarium also runs a program where Ph.D students mentor high school students and supervise research conducted by the students.",
+
+    "things-i-did": [
+      "Designed an award-winning experiment testing the effects of temperature on phytoplankton during the chlorination process",
+      "Used quantitative analysis to conclude that temperature has no effect on the chlorination process",
+    ]
   }]
 }

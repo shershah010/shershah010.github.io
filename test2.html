@@ -15,7 +15,7 @@ eList2: ["Vim", "Visual Studio"]
 <head>
   <title>{{ page.title }}</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
-   <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="home">
@@ -70,13 +70,13 @@ eList2: ["Vim", "Visual Studio"]
   </div>
   <div class="edu">
     <h2>EDUCATION</h2>
-    <p>I go to the University of California, Berkeley. I study computer science.</p>
+    <p>I go to the University of California, Berkeley where I study computer science. My main area of study is Machine Learning and Artifical Intelligence. My GPA is currently a 3.66.</p>
     <img src="img/ucb_seal.png">
   </div>
-  <div class="exp">
+  <div class="exp" id="exp">
     <h2>EXPERIENCE</h2>
     {% for exp in site.data.experience.experience %}
-      <div class="id">
+      <a href="{{ exp.url }}" class="id">
         <table>
           <tr>
             <td>
@@ -89,7 +89,30 @@ eList2: ["Vim", "Visual Studio"]
             </td>
           </tr>
         </table>
-      </div>
+      </a>
+    {% endfor %}
+  </div>
+  <div class="exp-des">
+    <h2>EXPERIENCE</h2>
+    {% for exp in site.data.experience.experience %}
+      <table>
+        <tr>
+          <td>
+            <img src="{{ exp.img }}">
+            <h4>{{ exp.title }}</h4>
+            <h4>{{ exp.company }}</h4>
+            <h4>{{ exp.time }}</h4>
+          </td>
+          <td>
+            <p>{{ exp.sum }}</p>
+            <ul>
+              {% for did in exp.things-i-did %}
+                <li>{{ did }}</li>
+              {% endfor %}
+            </ul>
+          </td>
+        </tr>
+      </table>
     {% endfor %}
   </div>
   <div class="projects">
@@ -106,7 +129,7 @@ eList2: ["Vim", "Visual Studio"]
               {% endfor %}
             </td>
             <td>
-                <a href="{{ pro.url }}" target="_blank">Source <img src="img/link.svg"></a>
+                <a href="{{ pro.url }}" target="_blank">source <img src="img/link.svg"></a>
             </td>
           </tr>
         </table>

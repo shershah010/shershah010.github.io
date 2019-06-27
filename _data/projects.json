@@ -1,6 +1,6 @@
 { "projects": [
   {
-    "img": "img/journal.png",
+    "img": "img/portfolio.png",
     "title": "PORTFOLIO SITE",
     "tech": ["HTML", "SCSS", "JavaScript", "Jekyll"],
     "url": "https://github.com/shershah010/shershah010.github.io"
