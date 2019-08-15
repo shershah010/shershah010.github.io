@@ -1,0 +1,53 @@
+.container {
+  display: block;
+  position: relative;
+  width: 70vw;
+  margin: auto;
+}
+
+.logo-container {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  margin: 0px 15%;
+}
+
+/* .logo-container img {
+  height: 150px;
+} */
+
+.info {
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+.stack {
+  margin: 100px auto;
+  display: block;
+  position: relative;
+}
+
+.stack h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.content {
+  margin-top: 50px;
+  position: relative;
+}
+
+/* clearfix hack */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td {
+  padding: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}

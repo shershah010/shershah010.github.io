@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, a, li, tr {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: 0px;
+}
+
+nav {
+  margin: auto;
+  margin-top: 50px;
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 28px;
+  color: #ccc;
+  font-style: italic;
+  transition: color 0.25s ease;
+  line-height: 100px;
+}
+
+.active, nav a:hover {
+  color: #000;
+  font-style: normal;
+}
+
+nav img {
+  width: 100px;
+}
+
+footer {
+  width: 90vw;
+  margin: auto;
+  margin-bottom: 50px;
+  display: block;
+}
+
+footer a {
+  padding: 0px 5px;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer img {
+  width: 25px;
+  vertical-align: middle;
+}

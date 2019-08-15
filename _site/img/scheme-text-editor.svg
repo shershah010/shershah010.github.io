@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297.09891mm"
+   height="110.57712mm"
+   viewBox="0 0 297.09891 110.57712"
+   version="1.1"
+   id="svg5207"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="scheme-text-editor.svg">
+  <defs
+     id="defs5201">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter896">
+      <feFlood
+         flood-opacity="0.294118"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood886" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite888" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur890" />
+      <feOffset
+         dx="1"
+         dy="0"
+         result="offset"
+         id="feOffset892" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite894" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter908">
+      <feFlood
+         flood-opacity="0.294118"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood898" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite900" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur902" />
+      <feOffset
+         dx="1"
+         dy="0"
+         result="offset"
+         id="feOffset904" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite906" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="537.46354"
+     inkscape:cy="205.62653"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="960"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5204">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(31.376837,-80.693581)">
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       y="80.693581"
+       x="-31.376837"
+       height="110.78802"
+       width="297.09891"
+       id="rect2245"
+       style="opacity:1;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:0.17602001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       ry="2.0039871"
+       y="94.193985"
+       x="-5.7073417"
+       height="13.276414"
+       width="260.02264"
+       id="rect1896"
+       style="opacity:1;fill:#501616;fill-opacity:1;stroke:none;stroke-width:0.2358034;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       ry="4.1445603"
+       y="96.093994"
+       x="217.37051"
+       height="8.2891207"
+       width="8.2891207"
+       id="rect1898"
+       style="opacity:1;fill:#29ce43;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffc12e;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1900"
+       width="8.2891207"
+       height="8.2891207"
+       x="230.03253"
+       y="96.08844"
+       ry="4.1445603"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       ry="4.1445603"
+       y="95.929596"
+       x="242.40671"
+       height="8.2891207"
+       width="8.2891207"
+       id="rect1902"
+       style="opacity:1;fill:#ff6259;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       ry="0"
+       y="106.07168"
+       x="-5.7370582"
+       height="85.466293"
+       width="259.56955"
+       id="rect1904"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.38127631;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter908)"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#501616;fill-opacity:1;stroke:none;stroke-width:0.2358034;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1841"
+       width="260.02264"
+       height="13.276414"
+       x="-22.127531"
+       y="110.13112"
+       ry="2.0039871"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#29ce43;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1843"
+       width="8.2891207"
+       height="8.2891207"
+       x="200.95033"
+       y="112.0312"
+       ry="4.1445603"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       ry="4.1445603"
+       y="112.02558"
+       x="213.61235"
+       height="8.2891207"
+       width="8.2891207"
+       id="rect1845"
+       style="opacity:1;fill:#ffc12e;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ff6259;fill-opacity:1;stroke:none;stroke-width:0.11240836;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1847"
+       width="8.2891207"
+       height="8.2891207"
+       x="225.98654"
+       y="112.34972"
+       ry="4.1445603"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.34294799;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter896)"
+       id="rect1849"
+       width="259.56955"
+       height="69.146767"
+       x="-22.157499"
+       y="122.50156"
+       ry="0"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.17516947px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.44844809;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="71.912987"
+       y="136.09157"
+       id="text1853"
+       inkscape:export-filename="/home/shershah/rect1781.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan1851"
+         x="71.912994"
+         y="136.09157"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.76275444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.44844809"><tspan
+   style="fill:#ff0000;stroke-width:0.44844809"
+   id="tspan1858">(</tspan><tspan
+   style="fill:#0000ff;stroke-width:0.44844809"
+   id="tspan1866">cons</tspan> Scheme <tspan
+   style="fill:#ff6600;stroke-width:0.44844809"
+   id="tspan1862">(</tspan><tspan
+   style="fill:#0000ff;stroke-width:0.44844809"
+   id="tspan1938">cons</tspan> Text Editor<tspan
+   style="fill:#ff6600;stroke-width:0.44844809"
+   id="tspan1864">)</tspan><tspan
+   style="fill:#ff0000;stroke-width:0.44844809"
+   id="tspan1860">)</tspan></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,72 @@
+---
+# liquid
+---
+<!DOCTYPE html>
+<html>
+  <head lang="en-us">
+    <meta charset="UTF-8">
+    <meta name="description" content="A website about Sher Shah">
+    <meta name="keywords" content="Sher Shah, machine learning, web developer">
+    <meta name="author" content="Sher Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sher Shah</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/pro.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html"><img src="img/logo.svg?sanitize=true"></a>
+      <a href="/ts.html">TECH STACK</a>
+      <a href="/edu.html">EDUCATION</a>
+      <a href="/exp.html">EXPERIENCE</a>
+      <a href="/pro.html" class="active">PROJECTS</a>
+    </nav>
+    <div class="container">
+      <div id="online-journal" class="project">
+        <div class="header">
+          <img src="img/digital-journal.svg?sanitize=true">
+        </div>
+        <div class="info">
+          <h3>DIGITAL JOURNAL</h3>
+          <p>A website designed to bring CRUD features to my digital journal</p>
+          <p>MongoDB Atlas | Express.JS | AngularJS | Node.JS | SCSS</p>
+          <a href="https://github.com/shershah010/web-diary">SOURCE CODE</a>
+        </div>
+      </div>
+      <div id="talus-lux" class="project">
+        <div class="header">
+          <img src="img/talus-lux.png">
+        </div>
+        <div class="info">
+          <h3>TALUS LUX</h3>
+          <p>Talis Lux is a little program that helps people play the table top rpg called Tales From The Loop</p>
+          <p>HTML | CSS | JavaScript | Node.JS | Electron API</p>
+          <a href="https://github.com/shershah010/talus-lux">SOURCE CODE</a>
+        </div>
+      </div>
+      <div id="fishing-tour" class="project">
+        <div class="header">
+          <img src="img/fishing-tour.svg">
+        </div>
+        <div class="info">
+          <h3>FISHING TOUR</h3>
+          <p>This is a small JavaScript library that helps make tutorials and feature tours on any website</p>
+          <p>JavaScript | Node.JS</p>
+          <a href="https://github.com/shershah010/fishing-tour">SOURCE CODE</a>
+        </div>
+      </div>
+      <div id="ste" class="project">
+        <div class="header">
+          <img src="img/scheme-text-editor.svg">
+        </div>
+        <div class="info">
+          <h3>SCHEME TEXT EDITOR</h3>
+          <p>A text editor for writing scheme code</p>
+          <p>Java | JavaFX | CSS</p>
+          <a href="https://github.com/shershah010/scheme-editor">SOURCE CODE</a>
+        </div>
+      </div>
+    </div>
+    {% include_relative _includes/footer.html %}
+  </body>
+</html>

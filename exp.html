@@ -1,0 +1,89 @@
+---
+# liquid
+---
+<!DOCTYPE html>
+<html>
+  <head lang="en-us">
+    <meta charset="UTF-8">
+    <meta name="description" content="A website about Sher Shah">
+    <meta name="keywords" content="Sher Shah, machine learning, web developer">
+    <meta name="author" content="Sher Shah">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sher Shah</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/exp.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html"><img src="img/logo.svg?sanitize=true"></a>
+      <a href="/ts.html">TECH STACK</a>
+      <a href="/edu.html">EDUCATION</a>
+      <a href="/exp.html" class="active">EXPERIENCE</a>
+      <a href="/pro.html">PROJECTS</a>
+    </nav>
+    <div class="container">
+      <div id="askoski" class="exp">
+        <div class="header">
+          <img src="img/askoski-logo.png">
+        </div>
+        <div class="info">
+          <h3>Web Developer</h3>
+          <h3>CAHLR</h3>
+          <h3>Oct 2018 - Present</h3>
+        </div>
+        <ul>
+          <li>Integral part of developing an artificially intelligent course recommendation system offered school-wide</li>
+          <li>Migrate CSS to SASS, condensing over 2000 lines of redundant code</li>
+          <li>Develop a feature tour API and implement over key tools of the site</li>
+          <li>Integrate Material-UI, the most popular React UI framework, onto the site</li>
+          <li>Trained on agile project methodologies and CI/CD</li>
+        </ul>
+      </div>
+      <div id="kumon" class="exp">
+        <div class="header">
+          <img src="img/kumon.jpg">
+        </div>
+        <div class="info">
+          <h3>Tutor</h3>
+          <h3>Kumon</h3>
+          <h3>Jan 2016 - Jul 2017</h3>
+        </div>
+        <ul>
+          <li>Tutored 50+ students in math, literature, and grammar</li>
+          <li>Trained and supervised a team of 10 tutors</li>
+          <li>Maintained business records and preformed business accountancy</li>
+        </ul>
+      </div>
+      <div id="boeing" class="exp">
+        <div class="header">
+          <img src="img/boeing.jpg">
+        </div>
+        <div class="info">
+          <h3>Intern</h3>
+          <h3>Boeing</h3>
+          <h3>Jan 2016 - Aug 2016</h3>
+        </div>
+        <ul>
+          <li>Led 3 interns in developing an Excel and VBA project which streamlined the sale of proprietary software</li>
+          <li>Directed 15 IT interns in creating a database holding hundreds of interns’ information</li>
+          <li>Present to corporate executives, detailing software development and proprietary software status</li>
+        </ul>
+      </div>
+      <div id="cabrillo" class="exp">
+        <div class="header">
+          <img src="img/cabrillo.png">
+        </div>
+        <div class="info">
+          <h3>Researcher<h3>
+          <h3>CMA</h3>
+          <h3>Sep 2015 - Mar 2017</h3>
+        </div>
+        <ul>
+          <li>Designed an award-winning experiment testing the effects of temperature on phytoplankton during the chlorination process</li>
+          <li>Used quantitative analysis to conclude that temperature has no effect on the chlorination process</li>
+        </ul>
+      </div>
+    </div>
+    {% include_relative _includes/footer.html %}
+  </body>
+</html>
