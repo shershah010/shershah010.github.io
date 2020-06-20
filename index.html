@@ -1,33 +1,354 @@
----
-# liquid
----
-<!DOCTYPE html>
 <html>
-  <head lang="en-us">
-    <meta charset="UTF-8">
-    <meta name="description" content="A website about Sher Shah">
-    <meta name="keywords" content="Sher Shah, machine learning, web developer">
-    <meta name="author" content="Sher Shah">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
     <title>Sher Shah</title>
-    <link rel="stylesheet" type="text/css" href="css/general.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-  </head>
-  <body>
-    <div class="container">
-      <div class="logo-container">
-      </div>
-      <div class="name-container">
-        <h1>Sher</h1>
-        <h1>Shah</h1>
-      </div>
-    </div>
-    <nav>
-      <a href="/ts.html">TECH STACK</a>
-      <a href="/edu.html">EDUCATION</a>
-      <a href="/exp.html">EXPERIENCE</a>
-      <a href="/pro.html">PROJECTS</a>
+    <meta name='description' content='A website about Sher Shah'>
+    <meta name='keywords' content='Sher, Shah, machine, learning, web, developer, software developer'>
+    <meta name='author' content='Sher Shah'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link type='text/css' rel='stylesheet' href='css/stylesheet.css'>
+    <link type='text/css' rel='stylesheet' href='css/max_1700_width.css' media='(max-width: 1700px)'>
+    <link type='text/css' rel='stylesheet' href='css/max_1200_width.css' media='(max-width: 1200px)'>
+</head>
+<body id='top'>
+    <nav class='nav'>
+        <a href='#top'>
+          <img
+            src='img/logo.svg?sanitize=true'
+            alt='home'
+            class='link black'
+          />
+        </a>
+        <a href='#tech' class='link black paragraph-text'>TECH STACK</a>
+        <a href='#edu' class='link black paragraph-text'>EDUCATION</a>
+        <a href='#exp' class='link black paragraph-text'>EXPERIENCE</a>
+        <a href='#pro' class='link black paragraph-text'>PROJECTS</a>
+        <a href='#con' class='link black paragraph-text'>CONTACT</a>
     </nav>
-    {% include_relative _includes/footer.html %}
-  </body>
+    <main>
+        <div id='home' class='container'>
+          <div class='container split-container center'>
+            <div class='left-container half-width'>
+              <img
+                src='img/logo.svg?sanitize=true'
+                alt='logo'
+                class='logo' />
+            </div>
+            <div class='right-container half-width'>
+              <h2 class='heading-text'>Hello, my name is Sher Shah and I am a</h2>
+              <h2 class='heading-text italic animate-text at-1'>machine learning engineer</h2>
+              <h2 class='heading-text italic animate-text at-2'>web developer</h2>
+              <h2 class='heading-text italic animate-text at-3'>software engineer</h2>
+              <h2 class='heading-text italic animate-text at-4'>game master</h2>
+              <h2 class='heading-text italic animate-text at-5'>pretty cool guy</h2>
+            </div>
+          </div>
+        </div>
+        <div id='tech' class='container'>
+            <h1 class='title-text bold'>TECH STACK</h1>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>Python</span>
+                <span class='paragraph-text text-spacing'>NumPy</span>
+                <span class='paragraph-text text-spacing'>pandas</span>
+                <span class='paragraph-text text-spacing'>Scikit Learn</span>
+                <span class='paragraph-text text-spacing'>matplotlib</span>
+                <span class='paragraph-text text-spacing'>Keras</span>
+                <span class='paragraph-text text-spacing'>TensorFlow</span>
+                <span class='paragraph-text text-spacing'>PyTorch</span>
+                <span class='paragraph-text text-spacing'>Jupiter Notebooks</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>HTML</span>
+                <span class='paragraph-text text-spacing'>(S)CSS</span>
+                <span class='paragraph-text text-spacing'>JavaScript</span>
+                <span class='paragraph-text text-spacing'>Angular</span>
+                <span class='paragraph-text text-spacing'>TypeScript</span>
+                <span class='paragraph-text text-spacing'>React</span>
+                <span class='paragraph-text text-spacing'>React Native</span>
+                <span class='paragraph-text text-spacing'>Expo</span>
+                <span class='paragraph-text text-spacing'>Github Pages</span>
+                <span class='paragraph-text text-spacing'>Jekyll</span>
+                <span class='paragraph-text text-spacing'>Liquid</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>Node.JS</span>
+                <span class='paragraph-text text-spacing'>NPM</span>
+                <span class='paragraph-text text-spacing'>ExpressJS</span>
+                <span class='paragraph-text text-spacing'>Flask</span>
+                <span class='paragraph-text text-spacing'>PHP</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>SQL</span>
+                <span class='paragraph-text text-spacing'>MySQL</span>
+                <span class='paragraph-text text-spacing'>MongoDB</span>
+                <span class='paragraph-text text-spacing'>MongoDB Atlas</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>Java</span>
+                <span class='paragraph-text text-spacing'>JavaFX</span>
+                <span class='paragraph-text text-spacing'>C/C++</span>
+                <span class='paragraph-text text-spacing'>Python</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>Github</span>
+                <span class='paragraph-text text-spacing'>Git</span>
+                <span class='paragraph-text text-spacing'>Docker</span>
+                <span class='paragraph-text text-spacing'>Travis CI</span>
+                <span class='paragraph-text text-spacing'>Circle CI</span>
+                <span class='paragraph-text text-spacing'>Firebase</span>
+                <span class='paragraph-text text-spacing'>Google Cloud Platform</span>
+                <span class='paragraph-text text-spacing'>Trello</span>
+                <span class='paragraph-text text-spacing'>Jira</span>
+                <span class='paragraph-text text-spacing'>Notion</span>
+                <span class='paragraph-text text-spacing'>Loom</span>
+              </div>
+            </div>
+            <div class='stack container split-container extra-container-vertical-margin'>
+              <div class='left-container center third-width'>
+                <img
+                  src='img/temp-logo.svg?sanitize=true'
+                  alt='logo'
+                  class='experience-logo' />
+              </div>
+              <div class='right-container two-thirds-width list-container'>
+                <span class='paragraph-text text-spacing'>Material Design</span>
+                <span class='paragraph-text text-spacing'>Figma</span>
+                <span class='paragraph-text text-spacing'>Inkscape</span>
+                <span class='paragraph-text text-spacing'>Photoshop</span>
+                <span class='paragraph-text text-spacing'>Illustrator</span>
+              </div>
+            </div>
+        </div>
+        <div id='edu' class='container'>
+            <h1 class='title-text bold'>EDUCATION</h1>
+            <div class='container split-container extra-container-vertical-margin'>
+              <div class='left-container half-width center'>
+                <img
+                  src='img/ucb_seal.png'
+                  alt='University of California, Berkeley'
+                />
+              </div>
+              <div class='right-container half-width'>
+                <h2 class='subheading-text'>
+                  I am a senior at UC Berkeley here I study Computer Science with a focus on machine learning courses
+                </h2>
+                <h2 class='subheading-text'>
+                  GPA: 3.715
+                </h2>
+              </div>
+            </div>
+            <div class='container list-container'>
+              <span class='paragraph-text text-spacing list-item'>Introduction to Artificial Intelligence: P</span>
+              <span class='paragraph-text text-spacing list-item'>Introduction to Machine Learning: P</span>
+              <span class='paragraph-text text-spacing list-item'>Optimization Models in Engineering: A-</span>
+              <span class='paragraph-text text-spacing list-item'>Principles & Techniques of Data Science: A</span>
+              <span class='paragraph-text text-spacing list-item'>Probability and Random Processes: B+</span>
+              <span class='paragraph-text text-spacing list-item'>Introduction to Robotics: A-</span>
+              <span class='paragraph-text text-spacing list-item'>Discrete Mathematics and Probability Theory: B+</span>
+              <span class='paragraph-text text-spacing list-item'>Data Structures: A</span>
+              <span class='paragraph-text text-spacing list-item'>Linear Algebra and Differential Equations: A</span>
+              <span class='paragraph-text text-spacing list-item'>The Structure and Interpretation of Computer Programs: A+</span>
+            </div>
+        </div>
+        <div id='exp' class='container'>
+            <h1 class='title-text bold'>EXPERIENCE</h1>
+            <div class='container split-container extra-container-vertical-margin'>
+              <div class='left-container third-width center'>
+                <img
+                  src='img/aerospace.jpeg'
+                  alt='Aerospace'
+                  class='company-logo'
+                />
+              </div>
+              <div class='right-container two-thirds-width'>
+                <p class='paragraph-text bold subheading-text'>Technical Intern</p>
+                <p class='paragraph-text bold grey'>The Aerospace Corporation</p>
+                <p class='paragraph-text grey'>Jun 2020 - Aug 2020</p>
+              </div>
+            </div>
+            <div class='container split-container extra-container-vertical-margin'>
+              <div class='left-container third-width center'>
+                <img
+                  src='img/askoski.png'
+                  alt='AskOski'
+                  class='company-logo'
+                />
+              </div>
+              <div class='right-container two-thirds-width'>
+                <p class='paragraph-text bold subheading-text'>Software Tester / Developer</p>
+                <p class='paragraph-text bold grey'>AskOski</p>
+                <p class='paragraph-text grey'>Aug 2018 - Present</p>
+                <p class='paragraph-text'>Developed a feature tour to enhance user understanding of complex site features</p>
+                <p class='paragraph-text'>Authored a NPM library that makes it ease to create customizable tool tips and tutorials</p>
+                <p class='paragraph-text'>Designed site-wide mockups and wireframes in Figma</p>
+                <p class='paragraph-text'>Wrote RESTful API backend endpoints in Flask</p>
+                <p class='paragraph-text'>Maintained a Github repository and managed pull requests</p>
+              </div>
+            </div>
+            <div class='container split-container extra-container-vertical-margin'>
+              <div class='left-container third-width center'>
+                <img
+                  src='img/boeing.png'
+                  alt='Boeing'
+                  class='company-logo'
+                />
+              </div>
+              <div class='right-container two-thirds-width'>
+                <p class='paragraph-text bold subheading-text'>Summer Intern</p>
+                <p class='paragraph-text bold grey'>The Boeing Company</p>
+                <p class='paragraph-text grey'>Jun 2016 - Aug 2016</p>
+                <p class='paragraph-text'>Led team of three interns to develop VBA + Excel software to streamline the sale of propietary software to vendors</p>
+                <p class='paragraph-text'>Worked with technical intern team two collect and format valuable company records</p>
+                <p class='paragraph-text'>Learned to use propietary software by following documentation</p>
+                <p class='paragraph-text'>Completed training in order to access propetary company information </p>
+              </div>
+            </div>
+        </div>
+        <div id='pro' class='container'>
+            <h1 class='title-text bold'>PROJECTS</h1>
+            <div class='container extra-container-vertical-margin'>
+              <div class='logo-container neon-green-bg center'>
+                <img
+                  src='img/digital-journal.svg'
+                  alt='Web Diary'
+                  class='project-logo'
+                />
+              </div>
+              <p class='paragraph-text bold center subheading-text'>Web Diary</p>
+              <p class='paragraph-text bold grey center'>A website for writing journal entries and uses NLP for sentiment analysis</p>
+              <p class='paragraph-text center'>AngularJS &#9679; SCSS &#9679; TypeScript &#9679; ExpressJS &#9679; NodeJS &#9679; MongoDB &#9679; Python &#9679; SciKit-Learn &#9679; Tensorflow &#9679; Docker</p>
+              <a href='https://github.com/shershah010/web-diary' class='link paragraph-text center'>Source Code</a>
+            </div>
+            <div class='container extra-container-vertical-margin'>
+              <div class='logo-container black-bg center'>
+                <img
+                  src='img/logo-inverse.svg'
+                  alt='Portfolio'
+                  class='project-logo'
+                />
+              </div>
+              <p class='paragraph-text bold center subheading-text'>Portfolio</p>
+              <p class='paragraph-text bold grey center'>A website about Sher Shah (that's me!)</p>
+              <p class='paragraph-text center'>Github Pages &#9679; Jekyll &#9679; Liquid</p>
+              <a href='https://github.com/shershah010/shershah010.github.io' class='link paragraph-text center'>Source Code</a>
+            </div>
+            <div class='container extra-container-vertical-margin'>
+              <div class='logo-container dark-blue-bg center'>
+                <img
+                  src='img/fishing-tour.svg'
+                  alt='Fishing Tour'
+                  class='project-logo'
+                />
+              </div>
+              <p class='paragraph-text bold center subheading-text'>Fishing Tour</p>
+              <p class='paragraph-text bold grey center'>A JavaScript library that helps make tutorials and feature tours on any website</p>
+              <p class='paragraph-text center'>JavaScript &#9679; NodeJS &#9679; NPM</p>
+              <a href='https://github.com/shershah010/fishing-tour' class='link paragraph-text center'>Source Code</a>
+            </div>
+        </div>
+        <div id='con' class='container'>
+            <h1 class='title-text bold'>CONTACT</h1>
+            <a href='mailto:sher.shah010@gmail.com' class='no-decorations'>
+              <div class='container split-container extra-container-vertical-margin'>
+                <div class='left-container center half-width'></div>
+                <div class='right-container half-width list-container'>
+                  <p class='link paragraph-text text-spacing black list-item'>sher.shah010@gmail.com</p>
+                </div>
+              </div>
+            </a>
+            <a href='https://github.com/shershah010' class='no-decorations'>
+              <div class='container split-container extra-container-vertical-margin'>
+                <div class='left-container center half-width'>
+                  <img
+                    src='img/github.png'
+                    alt='Github'
+                    class='contact-logo' />
+                </div>
+                <div class='right-container half-width list-container'>
+                  <p class='link paragraph-text text-spacing black list-item'>Github</p>
+                </div>
+              </div>
+            </a>
+            <a href='https://www.linkedin.com/in/sher-s-931286122/' class='no-decorations'>
+              <div class='container split-container extra-container-vertical-margin'>
+                <div class='left-container center half-width'>
+                  <img
+                    src='img/linkedin.png'
+                    alt='LinkedIn'
+                    class='contact-logo' />
+                </div>
+                <div class='right-container half-width list-container'>
+                  <p class='link paragraph-text text-spacing black list-item'>LinkedIn</p>
+                </div>
+              </div>
+            </a>
+            <a href='resume.pdf' class='no-decorations'>
+              <div class='container split-container extra-container-vertical-margin'>
+                <div class='left-container center half-width'>
+                  <img
+                    src='img/paperclip.svg?sanitize=true'
+                    alt='Resume'
+                    class='contact-logo' />
+                </div>
+                <div class='right-container half-width list-container'>
+                  <p class='link paragraph-text text-spacing black list-item'>Resume</p>
+                </div>
+              </div>
+            </a>
+        </div>
+    </main>
+</body>
 </html>

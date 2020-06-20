@@ -1,0 +1,219 @@
+/* Animated Text */
+.animate-text{
+    animation-name: fade-effect;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+}
+
+.at-1 {
+    animation-delay: 0s;
+    margin-top: 0px;
+}
+
+.at-2 {
+    animation-delay: 3s;
+    margin-top: -128px;
+}
+
+.at-3 {
+    animation-delay: 6s;
+    margin-top: -128px;
+}
+
+.at-4 {
+    animation-delay: 9s;
+    margin-top: -128px;
+}
+
+.at-5 {
+    animation-delay: 12s;
+    margin-top: -128px;
+}
+
+@keyframes fade-effect {
+  0% { opacity: 0 }
+  15% { opacity: 1 }
+  30% { opacity: 0 }
+  100% { opacity: 0 }
+}
+
+/* Color */
+.grey {
+  color: #828282;
+}
+
+.black {
+  color: #000;
+}
+
+.black-bg {
+  background-color: #000;
+}
+
+.dark-blue-bg {
+  background-color: #003380;
+}
+
+.neon-green-bg {
+  background-color: #55D400;
+}
+
+/* Containers */
+.container {
+  display: block;
+  margin: 50px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.nav {
+  padding: 50px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position:sticky;
+  top: 0px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.split-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-container {
+  float: left;
+}
+
+.right-container {
+  float: right;
+}
+
+/* Font Sizes */
+.paragraph-text {
+  font-size: 24px;
+}
+
+.subheading-text {
+  font-size: 36px;
+}
+
+.heading-text {
+  font-size: 64px;
+}
+
+.title-text {
+  font-size: 72px;
+}
+
+/* Text Styles */
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-decorations {
+  text-decoration: none;
+}
+
+/* Spacing */
+.text-spacing {
+  margin: 20px;
+}
+
+.p-vertical-spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.extra-container-vertical-margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Link Styles */
+.link {
+  display: block;
+  height: 50px;
+  text-decoration: none;
+  letter-spacing: 0px;
+  transition: letter-spacing 0.5s;
+}
+
+.link:hover {
+  letter-spacing: 1px;
+}
+
+/* Logo Styles */
+.logo {
+  width: 80%;
+}
+
+.experience-logo {
+  width: 250px;
+  height: 250px;
+}
+
+.company-logo {
+  border-radius: 125px;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.contact-logo {
+  height: 100px;
+}
+
+.project-logo {
+  height: 300px;
+}
+
+/* Widths */
+.half-width {
+  width: 50%;
+}
+
+.third-width {
+  width: 34%;
+}
+
+.two-thirds-width {
+  width: 66%;
+}
+
+/* Miscellaneous Styles */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
