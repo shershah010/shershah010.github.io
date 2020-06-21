@@ -217,3 +217,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+.mobile {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}

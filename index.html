@@ -15,9 +15,10 @@
     <link type='text/css' rel='stylesheet' href='css/stylesheet.css'>
     <link type='text/css' rel='stylesheet' href='css/max_1700_width.css' media='(max-width: 1700px)'>
     <link type='text/css' rel='stylesheet' href='css/max_1200_width.css' media='(max-width: 1200px)'>
+    <link type='text/css' rel='stylesheet' href='css/max_900_width.css' media='(max-width: 900px)'>
 </head>
 <body id='top'>
-    <nav class='nav'>
+    <nav class='nav desktop'>
         <a href='#top'>
           <img
             src='img/logo.svg?sanitize=true'
@@ -31,6 +32,25 @@
         <a href='#pro' class='link black paragraph-text'>PROJECTS</a>
         <a href='#con' class='link black paragraph-text'>CONTACT</a>
     </nav>
+    <nav class='nav mobile' onclick='toggleMenu(this)'>
+        <div class='menu-bar bar1'></div>
+        <div class='menu-bar bar2'></div>
+        <div class='menu-bar bar3'></div>
+    </nav>
+    <div class='mobile-menu'>
+        <a href='#top'>
+          <img
+            src='img/logo.svg?sanitize=true'
+            alt='home'
+            class='link black'
+          />
+        </a>
+        <a href='#tech' class='link black paragraph-text'>TECH STACK</a>
+        <a href='#edu' class='link black paragraph-text'>EDUCATION</a>
+        <a href='#exp' class='link black paragraph-text'>EXPERIENCE</a>
+        <a href='#pro' class='link black paragraph-text'>PROJECTS</a>
+        <a href='#con' class='link black paragraph-text'>CONTACT</a>
+    </div>
     <main>
         <div id='home' class='container'>
           <div class='container split-container center'>
@@ -351,4 +371,10 @@
         </div>
     </main>
 </body>
+<script>
+function toggleMenu(x) {
+  x.classList.toggle('change');
+  document.getElementsByClassName('mobile-menu')[0].classList.toggle('change');
+}
+</script>
 </html>
